@@ -6,4 +6,6 @@ class HomeController < ApplicationController
 	def turismo
 
 	end
+def prueba
+	end
 end
