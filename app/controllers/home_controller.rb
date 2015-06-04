@@ -8,4 +8,8 @@ class HomeController < ApplicationController
 	end
 def prueba
 	end
+
+	def posts
+		
+	end
 end
