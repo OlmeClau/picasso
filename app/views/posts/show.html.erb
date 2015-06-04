@@ -10,5 +10,34 @@
   <%= @post.text %>
 </p>
 
+<p>
+  <span class="label label-info">Comments:</span>
+ 
+</p>
+
+
+<% @post.comments.reverse.each do |comment| %>
+	<div clas="field">
+		<%= comment.text %>
+		<%= "---------" %><br>
+	</div>	
+
+
+<% end %>
+
+<br>
+<%= form_for([@post,@post.comments.build]) do |f| %>
+
+  <div class="field">
+    <%= f.label "Comment" %>
+    <%= f.text_area :text %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

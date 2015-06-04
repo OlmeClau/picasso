@@ -1,12 +1,15 @@
 <p id="notice"><%= notice %></p>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<div class="page-header" ALIGN=center>
-<h1>Foro Virtual</h1>
 
+
+<div  class="hero-unit"  ALIGN=center>
+<h1>Foro Virtual</h1>
+ <div class="container">
+<div class="panel panel-success" width="50">
 <br>
 <br>
-<table>
+<table class="table table-striped" width="50"> 
   <thead>
     <tr>
       <th></th>
@@ -34,8 +37,10 @@
     <% end %>
   </tbody>
 </table>
-
+</div>
+</div>
 <br>
+
 
 <%= link_to 'New Post', new_post_path %>
 </div>
