@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  resources :posts
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
  root 'home#index'
   get '/turismo' => 'home#turismo'
   get '/prueba' => 'home#prueba'
+
+  get '/posts' => 'post#index'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
