@@ -12,6 +12,11 @@ Rails.application.routes.draw do
 
   get '/producto' => 'home#producto'
 
+  get '/producto1' => 'home#producto1'
+
+  get '/alita' => 'home#alita'
+
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
