@@ -12,4 +12,7 @@ def prueba
 	def posts
 		
 	end
+	def producto
+		
+	end
 end
