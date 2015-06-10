@@ -15,4 +15,12 @@ def prueba
 	def producto
 		
 	end
+
+	def producto1
+		
+	end
+
+	def alita
+		
+	end
 end
