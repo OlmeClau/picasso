@@ -6,12 +6,22 @@ class HomeController < ApplicationController
 	def turismo
 
 	end
+	def fotos
+
+	end
 def prueba
 	end
 
 	def posts
 		
 	end
+	def videos
+		
+	end
+	def directorio
+		
+	end
+	
 	def producto
 		
 	end

@@ -6,9 +6,14 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
  root 'home#index'
   get '/turismo' => 'home#turismo'
+  get '/fotos' => 'home#fotos'
+  get '/videos' => 'home#videos'
+  get '/directorio' => 'home#directorio'
+
   get '/prueba' => 'home#prueba'
 
   get '/posts' => 'post#index'
+  get '/' => 'home#index'
 
   get '/producto' => 'home#producto'
 
