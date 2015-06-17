@@ -20,7 +20,8 @@ Rails.application.routes.draw do
   get '/producto1' => 'home#producto1'
 
   get '/alita' => 'home#alita'
-
+  get '/objetivos' => 'home#objetivos'
+  get '/gastronomia' => 'home#gastronomia' 
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

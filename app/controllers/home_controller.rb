@@ -33,4 +33,9 @@ def prueba
 	def alita
 		
 	end
+	def objetivos
+		
+	end
+	def gastronomia
+	end	
 end
