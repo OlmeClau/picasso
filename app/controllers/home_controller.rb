@@ -6,6 +6,20 @@ class HomeController < ApplicationController
 	def turismo
 
 	end
+	def ferias
+
+	end
+	def objeto
+
+	end
+	def nosotros
+
+	end
+	def empresas
+
+	end
+
+	
 	def fotos
 
 	end
@@ -13,6 +27,9 @@ def prueba
 	end
 
 	def posts
+		
+	end
+	def fines
 		
 	end
 	def videos

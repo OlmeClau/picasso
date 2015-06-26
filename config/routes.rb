@@ -16,11 +16,21 @@ Rails.application.routes.draw do
   get '/' => 'home#index'
 
   get '/producto' => 'home#producto'
+  get '/empresas' => 'home#empresas'
+
 
   get '/producto1' => 'home#producto1'
 
   get '/alita' => 'home#alita'
   get '/objetivos' => 'home#objetivos'
+  get '/ferias' => 'home#ferias'
+  get '/fines' => 'home#fines'
+  get '/objeto' => 'home#objeto'
+  get '/nosotros' => 'home#nosotros'
+
+
+
+
   get '/gastronomia' => 'home#gastronomia' 
 
   # You can have the root of your site routed with "root"
