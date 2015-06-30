@@ -12,6 +12,18 @@ class HomeController < ApplicationController
 	def objeto
 
 	end
+	def fotos1
+
+	end
+	def fotos2
+
+	end
+	def fotos3
+
+	end
+	def fotos4
+
+	end
 	def nosotros
 
 	end

@@ -18,6 +18,10 @@ Rails.application.routes.draw do
   get '/producto' => 'home#producto'
   get '/empresas' => 'home#empresas'
 
+  get '/fotos1' => 'home#fotos1'
+  get '/fotos2' => 'home#fotos2'
+  get '/fotos3' => 'home#fotos3'
+  get '/fotos4' => 'home#fotos4'
 
   get '/producto1' => 'home#producto1'
 
